@@ -1,0 +1,19 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "This project was created using HTML5, CSS3 and jQuery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyKulakov/landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyKulakov/landing-page/issues"
+  },
+  "homepage": "https://github.com/SergeyKulakov/landing-page#readme"
+}
