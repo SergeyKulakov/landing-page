@@ -334,12 +334,15 @@ article.fourth .sub-head {
 	opacity: 1;
 }
 
-
 .material-icons {
 	position: absolute;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 48px;
+}
+
+.slick-arrow {
+	cursor: pointer;
 }
 
 .left {
@@ -575,7 +578,7 @@ footer .icon {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   body{
 	  font-size: 16px;
   }
@@ -587,6 +590,18 @@ footer .icon {
   nav .icon{
 	  display: block;
 	  margin-left: 30%;
+  }
+
+  article.fifth{
+    height: 1000px;
+  }
+
+  article.fifth form{
+	  width: 100%;
+  }
+
+  .logos{
+	  width: 95%;
   }
 
   footer {
@@ -625,18 +640,6 @@ footer .icon {
 
   .text .btn{
 	  margin: 0;
-  }
-
-  article.fifth{
-    height: 1000px;
-  }
-
-  article.fifth form{
-	  width: 100%;
-  }
-
-  .logos{
-	  width: 100%;
   }
 }
 
